@@ -119,25 +119,16 @@ const Header = () => {
         
       <div className="flex justify-around">
 
-            <a href="../../public/salman fursi resume.pdf" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 text-xl rounded flex d-flex"title="Download my resume" download>
+            <a href="salman fursi resume.pdf" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 text-xl rounded flex d-flex"title="Download my resume" download>
              Resume 
-             <img className="h-8 w-8 md:h-8 w-8 rounded-full px-1" src="https://i.ibb.co/6JZFx54/download-removebg-preview.png" alt="" />
+             <img className="h-8 w-8 rounded-full px-1" src="https://i.ibb.co/6JZFx54/download-removebg-preview.png" alt="" />
              </a>
 
       </div>
     </div>
     </div>
 
-    /**
-     * 
-     * git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/salmanfursi/My-portfolio.git
-git push -u origin main
-     */
-
+  
   );
 };
 
